@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HorrorVideoBot - AI Horror Video Creator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #fff;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #ff6b6b, #ee5a6f);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .subtitle {
+            font-size: 1.3em;
+            color: #a8a8a8;
+            margin-bottom: 30px;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+        }
+        
+        .feature-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.08);
+        }
+        
+        .feature-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+        
+        .feature-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #ff6b6b;
+        }
+        
+        .cta-section {
+            text-align: center;
+            padding: 50px 20px;
+            background: rgba(255, 107, 107, 0.1);
+            border-radius: 15px;
+            margin: 50px 0;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(45deg, #ff6b6b, #ee5a6f);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 10px;
+            transition: transform 0.2s ease;
+        }
+        
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 60px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .footer-links {
+            margin: 20px 0;
+        }
+        
+        .footer-links a {
+            color: #ff6b6b;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+        
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+        
+        .demo-video {
+            text-align: center;
+            margin: 50px 0;
+        }
+        
+        .video-placeholder {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            padding: 100px 20px;
+            margin: 20px 0;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎬 HorrorVideoBot</h1>
+            <p class="subtitle">AI-Powered Horror Short Video Creator for TikTok</p>
+            <p>Automatically generate unique horror stories with AI-generated images, voiceovers, and post them to TikTok</p>
+        </header>
+
+        <section class="features">
+            <div class="feature-card">
+                <div class="feature-icon">🤖</div>
+                <h3 class="feature-title">AI Story Generation</h3>
+                <p>Our advanced AI creates unique, spine-chilling horror stories tailored for short-form content.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🎨</div>
+                <h3 class="feature-title">Image Generation</h3>
+                <p>Stable Diffusion AI generates atmospheric horror visuals that perfectly match each story.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🎙️</div>
+                <h3 class="feature-title">Voice Narration</h3>
+                <p>Professional AI voice-over brings your horror stories to life with dramatic narration.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📱</div>
+                <h3 class="feature-title">Auto-Posting</h3>
+                <p>Seamlessly publish your content directly to TikTok without manual intervention.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3 class="feature-title">Fast & Automated</h3>
+                <p>Generate complete videos in minutes, fully automated from story to post.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🔒</div>
+                <h3 class="feature-title">Safe & Private</h3>
+                <p>Your data is secure. We never share your content or TikTok credentials.</p>
+            </div>
+        </section>
+
+        <section class="demo-video">
+            <h2>How It Works</h2>
+            <div class="video-placeholder">
+                <p>📹 Demo Video Coming Soon</p>
+                <p style="color: #a8a8a8; margin-top: 10px;">See HorrorVideoBot in action</p>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h2>Ready to Create Horror Content?</h2>
+            <p style="margin: 20px 0; font-size: 1.1em;">Join creators who are automating their TikTok horror content</p>
+            <a href="#" class="cta-button">Get Started</a>
+            <a href="mailto:support@horrorvideobot.com" class="cta-button" style="background: transparent; border: 2px solid #ff6b6b;">Contact Us</a>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 HorrorVideoBot. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="terms-of-service.html">Terms of Service</a>
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="mailto:support@horrorvideobot.com">Contact</a>
+            </div>
+            <p style="color: #a8a8a8; margin-top: 20px; font-size: 0.9em;">
+                This application uses TikTok's Content Posting API to automate video uploads.
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

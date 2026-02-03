@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>horrorvideobot-legal</title>
+  <title>horrorvideobot</title>
 </head>
 <body>
-  <h1>horrorvideobot-legal</h1>
+
+  <h1>horrorvideobot</h1>
 
   <p>
-    Cette application automatise la publication et la gestion de contenu
-    vidéo sur TikTok à l’aide de l’API officielle TikTok.
+    This application allows its owner to create and publish video content
+    on TikTok using the official TikTok API.
   </p>
 
   <p>
-    Elle est utilisée uniquement par son propriétaire à des fins de tests
-    et d’automatisation.
+    The application is used only by its owner for personal testing purposes.
   </p>
 
   <ul>
-    <li><a href="terms-of-service.html">Conditions d’utilisation</a></li>
-    <li><a href="privacy-policy.html">Politique de confidentialité</a></li>
+    <li><a href="terms-of-service.html">Terms of Service</a></li>
+    <li><a href="privacy-policy.html">Privacy Policy</a></li>
   </ul>
+
 </body>
 </html>
